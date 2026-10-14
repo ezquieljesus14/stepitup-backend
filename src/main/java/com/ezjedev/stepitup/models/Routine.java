@@ -23,7 +23,7 @@ public class Routine {
 	@GeneratedValue( strategy = GenerationType.UUID)
 	private UUID id;
 	
-	@Column(unique = true)
+	@Column(nullable = false)
 	private String name;
 	
 	@ManyToOne(optional = false)
