@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @Table(name = "users")
-public class User {
+public class Api_user {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.UUID)

@@ -42,5 +42,5 @@ public class Session {
 	
 	@ManyToOne(optional = false)
 	@JoinColumn(name = "user_id")
-	private User user;
+	private Api_user user;
 }
